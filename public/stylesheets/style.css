@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.enfoque{
+	background-color: #745234;
+	background-image: url('../images/fondo.jpg');
+	background-repeat: no-repeat;
+	color:white;
+}
