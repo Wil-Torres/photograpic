@@ -1,0 +1,28 @@
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="col-12">
+  <div class="card">
+    <div class="card-body">
+      <div class="row pricing-plan">
+        <div class="col-md-3 col-xs-12 col-sm-6 text-center" *ngFor="let precio of precios">
+          <div class="pricing-box">
+            <div class="pricing-body b-l">
+              <div class="pricing-header">
+                <h4 class="text-center">{{precio.titulo}}</h4>
+                <h4 class="text-center"><span class="price-sign"></span>{{precio.precio | currency:'Q.'}}</h4>
+              </div>
+              <div class="price-table-content" *ngFor="let detalle of precio.contenido">
+                <div class="price-row"> {{detalle}}</div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-success waves-effect waves-light text-center">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============================================================== -->
+<!-- End PAge Content -->
+<!-- ============================================================== -->

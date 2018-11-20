@@ -10,7 +10,10 @@ export class SidebarService {
       icono: 'mdi mdi-gauge',
       submenu: [
         {titulo: 'Home', url: '/home'},
-        {titulo: 'About', url: ''},
+        {titulo: 'Events', url: ''},
+        {titulo: 'Company', url: ''},
+        {titulo: 'Photo Tips', url: ''},
+        {titulo: 'Shop', url: ''},
         {titulo: 'Contact', url: ''}
       ]
     }
