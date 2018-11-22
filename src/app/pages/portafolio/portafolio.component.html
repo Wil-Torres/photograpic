@@ -1,0 +1,19 @@
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<h1 class="text-center">{{galeria.title}}</h1>
+<h4 class="text-center">{{galeria.subtitle}}</h4>
+<div class="card-columns el-element-overlay">
+  <div class="card" *ngFor="let photo of galeria.gallery">
+    <div class="el-card-item">
+      <div class="el-card-avatar el-overlay-1">
+        <a class="image-popup-vertical-fit" [href]="photo"> <img [src]="photo"
+            alt="user" /> </a>
+      </div>
+    </div>
+  </div>
+</div>
+<app-event-any></app-event-any>
+<!-- ============================================================== -->
+<!-- End PAge Content -->
+<!-- ============================================================== -->

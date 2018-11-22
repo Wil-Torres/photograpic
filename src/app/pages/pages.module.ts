@@ -9,6 +9,12 @@ import { EventAnyComponent } from './pricing/event-any/event-any.component';
 import { BrowserModule } from "@angular/platform-browser";
 import { CommonModule } from "@angular/common";
 import { GalleryComponent } from './gallery/gallery.component';
+import { PortafolioComponent } from './portafolio/portafolio.component';
+import { PhototipsComponent } from './phototips/phototips.component';
+import { EventsComponent } from './events/events.component';
+import { CompanyComponent } from './company/company.component';
+import { ShopComponent } from './shop/shop.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +23,13 @@ import { GalleryComponent } from './gallery/gallery.component';
         AccountSettingComponent,
         EventCompanyComponent,
         EventAnyComponent,
-        GalleryComponent
+        GalleryComponent,
+        PortafolioComponent,
+        PhototipsComponent,
+        EventsComponent,
+        CompanyComponent,
+        ShopComponent,
+        ContactComponent
     ],
     exports: [
         HomeComponent,

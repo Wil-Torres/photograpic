@@ -1,0 +1,16 @@
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 3.5%;
+    box-sizing: border-box;
+}   
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+}
+
+.standard_wrapper .one_half, .standard_wrapper .one_third, .standard_wrapper .one_fourth, .standard_wrapper .one_fifth {
+    margin-bottom: 0;
+}
