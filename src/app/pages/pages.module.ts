@@ -1,4 +1,5 @@
 import { NgModule } from "@angular/core";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from "./home/home.component";
 import { PagesComponent } from "./pages.component";
 import { SharedModule } from "../shared/shared.module";
@@ -42,7 +43,9 @@ import { ContactComponent } from './contact/contact.component';
         SharedModule,
         PAGES_ROUTES,
         BrowserModule, 
-        CommonModule
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
     ]
 })
 
