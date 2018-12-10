@@ -80,7 +80,9 @@
                 }
             )
         };
-        window.save = function () {
+        window.save = function (  ) {
+            console.log(event)
+            console.log($(".click2edit").summernote('code'));
             $(".click2edit").summernote('destroy');
         };
     </script>

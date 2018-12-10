@@ -6,9 +6,11 @@
     <div class="card">
       <div class="card-body">
         <button id="edit" class="btn btn-info btn-rounded" onclick="edit()" type="button">Edit</button>
-        <button id="save" class="btn btn-success btn-rounded" onclick="save()" type="button">Save</button>
+        <button id="edit" class="btn btn-success btn-rounded" onclick="save()" type="button">save</button>
+        <button id="save" class="btn btn-success btn-rounded" (click)="save()" type="button">Save</button>
         <br><br>
-        <div class="click2edit m-b-40 summernote">Click on Edite button and change the text then save it.</div>
+        <div class="click2edit m-b-40 summernote" [(ngModel)]="descripcion" >Click on Edite button and change the text then save it.</div>
+        <textarea type="text" [(ngModel)]="descripcion" style="width:100%;"></textarea>
       </div>
     </div>
   </div>
