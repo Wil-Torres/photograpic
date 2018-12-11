@@ -8,7 +8,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PortafolioComponent implements OnInit {
 
-  galeria = {};
+  galeria = {
+    "title": "",
+        "subtitle": "",
+        "imgUrl": '',
+        "gallery": ''
+  };
   portafolios = [];
 
   constructor(private route: ActivatedRoute) { }
