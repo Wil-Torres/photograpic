@@ -3,52 +3,59 @@
 <!-- ============================================================== -->
 <header class="topbar">
   <nav class="navbar top-navbar navbar-expand-md navbar-light">
-    <!-- ============================================================== -->
-    <!-- Logo -->
-    <!-- ============================================================== -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">
-        <!-- Logo icon --><b>
-          <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
-          <!-- Dark Logo icon -->
-          <img src="assets/images/logo-icon.png" alt="homepage" class="dark-logo" style="height: 70px;"/>
-          <!-- Light Logo icon -->
-          <img src="assets/images/logo-light-icon.png" alt="homepage" class="light-logo" style="height: 70px;" />
-        </b>
-        <!--End Logo icon -->
-        <!-- Logo text --><span>
-          <!-- dark Logo text -->
-          <img src="assets/images/logo-text.png" alt="homepage" class="dark-logo" style="height: 70px;" />
-          <!-- Light Logo text -->
-          <img src="assets/images/logo-light-text.png" class="light-logo" alt="homepage" style="height: 70px;" /></span> </a>
+    <div class="">
+      <!--a class="navbar-brand" href="#">Navbar</a>
+      <img src="../assets/../assets/images/bootstrap-solid.svg" width="30" height="30" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> icono </span>
+      </button-->
+      <div id="logo_normal" class="logo_container" style="margin-left: -71px">
+        <div class="logo_align">
+          <a id="custom_logo" class="logo_wrapper hidden" href="https://beredorantesfotografia.com/"
+            style="margin-top: 0px;">
+            <img src="https://beredorantesfotografia.com/wp-content/uploads/2017/03/logobere2-01.png" alt="" width="142"
+              height="70">
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- ============================================================== -->
-    <!-- End Logo -->
-    <!-- ============================================================== -->
-    <div class="navbar-collapse">
+    <div class="collapse navbar-collapse">
+
       <!-- ============================================================== -->
       <!-- toggle and nav items -->
       <!-- ============================================================== -->
       <ul class="navbar-nav mr-auto">
-        <!-- This is  -->
-        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark" href="javascript:void(0)"><i
-              class="ti-menu"></i></a> </li>
-        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
-              class="ti-menu"></i></a> </li>
-        <li class="nav-item hidden-sm-down"></li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLinkActive="active" routerLink="/home">Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <!--li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/company">Company</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/phototips">Photo Tips</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/shop">Shop</a>
+        </li-->
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/contact">Contact Us</a>
+        </li>
       </ul>
       <!-- ============================================================== -->
       <!-- User profile and search -->
       <!-- ============================================================== -->
       <ul class="navbar-nav my-lg-0">
-        <!-- ============================================================== -->
-        <!-- Search -->
-        <!-- ============================================================== -->
-        <li class="nav-item hidden-xs-down search-box"> <a class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
-              class="ti-search"></i></a>
-          <form class="app-search">
-            <input type="text" class="form-control" placeholder="Search & enter"> <a class="srh-btn"><i class="ti-close"></i></a>
-            </form>
+        <li class="nav-item hidden-xs-down">
+          <form >
+              <button class="btn btn-circle btn-secondary"><i class="fa fa-facebook"></i></button>
+              <button class="btn btn-circle btn-secondary"><i class="fa fa-twitter"></i></button>
+              <button class="btn btn-circle btn-secondary"><i class="fa fa-youtube"></i></button>
+          </form>
         </li>
         <!-- ============================================================== -->
         <!-- Messages -->

@@ -10,24 +10,24 @@ export class GalleryComponent implements OnInit {
 
   galerias: any[] = [
     {
-      id: 1,
+      id: 2,
       title: 'BODAS',
       subtitle: 'Juntos para toda la vida',
-      imgUrl: '../assets/images/portafolio/bodas/IMG_0113.jpg',
+      imgUrl: '../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
       gallery: []
     },
     {
-      id: 2,
+      id: 1,
       title: 'LA FAMILIA',
       subtitle: 'Momentos inolvidables',
-      imgUrl: '../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
+      imgUrl: '../assets/images/portafolio/bodas/IMG_0113.jpg',
       gallery: []
     }
     ,
     {
       id: 3,
-      title: 'EMBARAZO',
-      subtitle: 'Esperando su llegada',
+      title: 'NATURALEZA',
+      subtitle: 'Las plantas verden publan toda la tierra',
       imgUrl: '../assets/images/portafolio/embarazo/IMG_20180810_132509.jpg',
       gallery: []
     },
