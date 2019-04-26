@@ -9,7 +9,7 @@ export class ContactComponent implements OnInit {
 
   perfil: any = {
     nombreCompleto: 'Frida Villela',
-    correo: 'fridavi@gmail.com',
+    correo: 'frida.grune@gmail.com',
     contactar: ' ',
     direccion: 'Ciudad de Guatemala',
     perfilFacebook: '',

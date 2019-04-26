@@ -11,7 +11,7 @@ export class GalleryComponent implements OnInit {
   galerias: any[] = [
     {
       id: 1,
-      title: 'ARTESANIA GUATEMALTECA',
+      title: 'ARTESANIA',
       subtitle: 'Vino artesanal de San Juan Obispo',
       imgUrl: '../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
       gallery: []
@@ -24,13 +24,13 @@ export class GalleryComponent implements OnInit {
       gallery: []
     }
     ,
-    {
+    /*{
       id: 3,
       title: 'NATURALEZA',
       subtitle: 'Las plantas verden publan toda la tierra',
       imgUrl: '../assets/images/portafolio/embarazo/IMG_20180810_132509.jpg',
       gallery: []
-    },
+    },*/
     {
       id: 4,
       title: 'NIÑOS',

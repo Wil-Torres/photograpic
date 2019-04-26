@@ -75,7 +75,7 @@ export class PortafolioComponent implements OnInit {
       },
       {
         "title": "PORTAFOLIO DE 15 AÑOS",
-        "subtitle": "Esta etapa en la vida que tu hija deja de ser niña y se convierte en mujer.",
+        "subtitle": "Esta etapa en la vida en que tu hija deja de ser niña y se convierte en mujer.",
         "imgUrl": '../../../assets/images/portafolio/quince/_MG_4402.JPG',
         "gallery": [
           '../../../assets/images/portafolio/quince/_MG_4402.JPG',
@@ -83,7 +83,7 @@ export class PortafolioComponent implements OnInit {
           '../../../assets/images/portafolio/quince/_MG_4445.JPG',
           '../../../assets/images/portafolio/quince/_MG_4448.JPG',
           '../../../assets/images/portafolio/quince/_MG_4461.JPG',
-          '../../../assets/images/portafolio/quince/_MG_9402.JPG'
+          '../../../assets/images/portafolio/quince/_MG_9402.JPG',
         ]
       },
       {
@@ -91,8 +91,8 @@ export class PortafolioComponent implements OnInit {
         "subtitle": "No hay nada como liberarte y ser tú mismo. Producimos sesiones personalizadas.",
         "imgUrl": '../../../assets/images/portafolio/retratos/Retrato-3.jpg',
         "gallery": [
-          '../../../assets/images/portafolio/retratos/Retrato-3.jpg',
           '../../../assets/images/portafolio/retratos/Retrato-6.jpg',
+          '../../../assets/images/portafolio/retratos/Retrato-3.jpg',
         ]
       },
       {

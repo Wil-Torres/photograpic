@@ -979,7 +979,8 @@ File: scss
  ============================================================== */
 #main-wrapper {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden; 
+  background: antiquewhite;}
 
 .boxed #main-wrapper {
   width: 100%;
@@ -987,6 +988,7 @@ File: scss
   margin: 0 auto;
   -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.1); }
+  
   .boxed #main-wrapper .sidebar-footer {
     position: absolute; }
   .boxed #main-wrapper .topbar {
@@ -995,7 +997,8 @@ File: scss
     display: none; }
 
 .page-wrapper {
-  background: #f4f6f9;
+  background: antiquewhite;
+  /* background: #f4f6f9; */
   padding-bottom: 60px;
   position: relative; }
 
