@@ -10,14 +10,14 @@ export class GalleryComponent implements OnInit {
 
   galerias: any[] = [
     {
-      id: 2,
-      title: 'BODAS',
-      subtitle: 'Juntos para toda la vida',
+      id: 1,
+      title: 'ARTESANIA GUATEMALTECA',
+      subtitle: 'Vino artesanal de San Juan Obispo',
       imgUrl: '../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
       gallery: []
     },
     {
-      id: 1,
+      id: 2,
       title: 'LA FAMILIA',
       subtitle: 'Momentos inolvidables',
       imgUrl: '../assets/images/portafolio/bodas/IMG_0113.jpg',

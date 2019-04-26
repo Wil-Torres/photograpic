@@ -23,23 +23,9 @@ export class PortafolioComponent implements OnInit {
     this.portafolios = [
       
       {
-        "title": "PORTAFOLIO DE BODA",
-        "subtitle": `¡Captura tu gran día! 
-                    Mis fotografías están diseñadas para captar el día de tu boda en el momento en que sucede, creando una serie de imágenes que cuentan una historia, tú historia.`,
+        "title": "PORTAFOLIO DE ARTESANIA",
+        "subtitle": `Trabajo artesanal desde la localidad de San Juan Obispo.`,
         "imgUrl": '../../../assets/images/portafolio/bodas/IMG_0032.jpg',
-        "gallery": [
-          '../../../assets/images/portafolio/bodas/IMG_0053.jpg',
-          '../../../assets/images/portafolio/bodas/IMG_0032.jpg',
-          '../../../assets/images/portafolio/bodas/IMG_0070.jpg',
-          '../../../assets/images/portafolio/bodas/IMG_0095.jpg',
-          '../../../assets/images/portafolio/bodas/IMG_0108.jpg',
-          '../../../assets/images/portafolio/bodas/IMG_0113.jpg',
-        ]
-      },
-      {
-        "title": "PORTAFOLIO DE LA FAMILIA",
-        "subtitle": "No hay nada como congelar los momentos de unidad familiar. Plasma bellos recuerdos junto a tus seres más queridos.",
-        "imgUrl": '../../../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
         "gallery": [
           '../../../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
           '../../../assets/images/portafolio/familia/San Juan del Obispo (29).jpg',
@@ -47,6 +33,19 @@ export class PortafolioComponent implements OnInit {
           '../../../assets/images/portafolio/familia/San Juan del Obispo (35).jpg',
           '../../../assets/images/portafolio/familia/San Juan del Obispo (82).jpg',
           '../../../assets/images/portafolio/familia/San Juan del Obispo (114).jpg',
+        ]
+      },
+      {
+        "title": "PORTAFOLIO DE LA FAMILIA",
+        "subtitle": "No hay nada como congelar los momentos de unidad familiar. Plasma bellos recuerdos junto a tus seres más queridos.",
+        "imgUrl": '../../../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
+        "gallery": [
+          '../../../assets/images/portafolio/bodas/IMG_0053.jpg',
+          '../../../assets/images/portafolio/bodas/IMG_0032.jpg',
+          '../../../assets/images/portafolio/bodas/IMG_0070.jpg',
+          '../../../assets/images/portafolio/bodas/IMG_0095.jpg',
+          '../../../assets/images/portafolio/bodas/IMG_0108.jpg',
+          '../../../assets/images/portafolio/bodas/IMG_0113.jpg',
         ]
       },
       {
@@ -113,6 +112,20 @@ export class PortafolioComponent implements OnInit {
           '../../../assets/images/portafolio/embarazo/IMG_20180810_132509.jpg',
           '../../../assets/images/portafolio/embarazo/IMG_20180809_175645.jpg',
           '../../../assets/images/portafolio/embarazo/IMG_20180809_165753.jpg',
+        ]
+      },
+      {
+        "title": "PORTAFOLIO DE BODA",
+        "subtitle": `¡Captura tu gran día! 
+                    Mis fotografías están diseñadas para captar el día de tu boda en el momento en que sucede, creando una serie de imágenes que cuentan una historia, tú historia.`,
+        "imgUrl": '../../../assets/images/portafolio/bodas/IMG_0032.jpg',
+        "gallery": [
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (27).jpg',
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (29).jpg',
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (34).jpg',
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (35).jpg',
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (82).jpg',
+          '../../../assets/images/portafolio/familia/San Juan del Obispo (114).jpg',
         ]
       }
       

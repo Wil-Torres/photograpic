@@ -10,14 +10,20 @@ export class ContactComponent implements OnInit {
   perfil: any = {
     nombreCompleto: 'Frida Villela',
     correo: 'fridavi@gmail.com',
-    contactar: '+502 1234-5678',
+    contactar: ' ',
     direccion: 'Ciudad de Guatemala',
     perfilFacebook: '',
     perfilTwiter: '',
     perfilInstagram: '',
     youtube: '',
-    descripcionBreve: 'Lo que se he logrado plasmar en un fotografia, esos recuerdos inolvidables que te hacer revivir el momento.',
-    descripcionPerfil: 'Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. \nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries \n   It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    descripcionBreve: '. Siempre busco realzar la belleza y la esencia de las personas, paisajes u objetos a travez de la fotografia.',
+    descripcionPerfil: `
+    Desde 2013 tengo el privilegio de ejercer como fotógrafa profesional, me apasiona captar y congelar momentos. Siempre busco realzar la belleza y la esencia de las personas, paisajes u objetos que voy a fotografiar para comunicar a través de la foto algo que considero muy importante pues además de ser fotógrafa poseo una Licenciatura en Comunicación Social y una Maestría en Comunicación Organizacional.
+    Una de las razones por la que descubrí que tenía esta pasión fue mi trabajo dentro de Corporación EEGSA, pues una de mis atribuciones es hacer la cobertura fotográfica y documental de sus eventos corporativos, además de la producción de sesiones fotográficas para sus campañas publicitarias internas que van enfocadas a generar identidad y sentido de pertenencia en sus trabajadores. 
+    Esto me abrió las puertas para estudiar en la FOTOTECA mi casa de estudios y esto me motivó para adquirir mi propio equipo fotográfico CANON, y allí inicié a tomar fotografías para eventos sociales, retratos y fotografías de estudio; esto sumado a los sólidos conocimientos técnicos que me brindó esta institución. 
+    En esta página encontrará parte de mi trabajo y dónde contactarme. Con gusto puedo elaborar una cotización que se ajuste a sus necesidades.   
+
+    `,
     timeLine: [
       {
         usuario: 'John Doe5',
